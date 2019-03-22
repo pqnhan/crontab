@@ -4,4 +4,4 @@ version=1.1.0
 versionCode=1
 author=liangsai12
 description=   data/crontabs/root used to schedule the execution of programs
-minMagisk=1700
+minMagisk=17000
