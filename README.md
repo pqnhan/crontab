@@ -6,9 +6,9 @@ How to use
   use crontab command in /data/crontabs/root   
   crontab examples:  
     Every 5 minutes to log date  
-    */5 * * * * 	date >sdcard/log.txt  
+    */5 * * * * 	data >sdcard/log.txt  
 ## Changelog  
-v1.1 change dir to /date/media/0
+v1.1 change dir to /data/media/0/cron/media/0
 v1.0 new  
 ## Requirements  
 - Requirement Magisk  
@@ -20,11 +20,11 @@ v1.0 new
   
   ☆☆☆tips for Auto.js☆☆  
   Autojs is a APP to run js on Android.  
-  1.  在 /data/crontabs/root下 写上  
+  1.  在 /data/media/0/cron/crontabs/root下 写上  
       \# on 8:15 to do  
-      15 8 * * * /data/cronsh/zd.sh  
+      15 8 * * * /data/media/0/cron/cronsh/zd.sh  
       
-  2.  在  /data/cronsh/zd.sh下 写上  
+  2.  在  /data/media/0/cron/cronsh/zd.sh下 写上  
   
   am start -n com.stardust.scriptdroid/.external.open.RunIntentActivity -d /sdcard/脚本/脚本名字.js -t application/x-javascript  
   
