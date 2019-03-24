@@ -8,7 +8,8 @@ How to use
     Every 5 minutes to log date  
     */5 * * * * 	date >sdcard/log.txt  
 ## Changelog  
-v1.1 new  
+v1.1 change dir to /date/media/0
+v1.0 new  
 ## Requirements  
 - Requirement Magisk  
 ## Instructions  
