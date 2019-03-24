@@ -8,7 +8,7 @@ MODDIR=${0%/*}
 # TimeZoon 8,China. I do not known how to use tzselect
 export TZ=Asia/Shanghai
 #
-mkdir -p /data/crontabs 
+[ -d /data/crontabs ] && exit 0 || mkdir -p /data/crontabs 
 touch /data/crontabs/root
 
 #
