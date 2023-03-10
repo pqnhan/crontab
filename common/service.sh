@@ -6,17 +6,17 @@ MODDIR=${0%/*}
 # This script will be executed in late_start service mode
 # More info in the main Magisk thread
 # TimeZoon 8,China. I do not known how to use tzselect
-export TZ=Asia/Shanghai
+export TZ=Asia/Ho_Chi_Minh
 #
 mkdir -p /data/media/0/cron/crontabs 
 touch /data/media/0/cron/crontabs/root
 
 #
 #a shell file 
-mkdir -p /data/media/0/cron/cronsh 
-touch /data/media/0/cron/cronsh/zd.sh
-#mktouch /data/cronsh/zd.sh 2</dev/null
-chmod 766 /data/media/0/cron/cronsh/zd.sh 2</dev/null
+# mkdir -p /data/media/0/cron/cronsh 
+# touch /data/media/0/cron/cronsh/zd.sh
+# mktouch /data/cronsh/zd.sh 2</dev/null
+# chmod 766 /data/media/0/cron/cronsh/zd.sh 2</dev/null
 #cron start 
 #cron enable
 #date > /data/cron.log;
