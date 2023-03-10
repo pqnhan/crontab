@@ -22,7 +22,8 @@ touch /data/media/0/crontab/root
 #date > /data/cron.log;
 
 #change the path
-crond -c /data/media/0/crontab 
+echo 'root:x:0:0:root:/data:/system/bin/sh' > /system/etc/passwd  
+/data/adb/magisk/busybox crond -c /data/media/0/crontab/ 
 #crond -l 1-L /sdcard/cron_error.log
 # This script will be executed in late_start service mode
 # More info in the main Magisk thread
