@@ -1,4 +1,6 @@
 #!/system/bin/sh
+# Put this script into `/data/adb/post-fs-data.d/` to start crond at boot.
+
 # Please don't hardcode /magisk/modname/... ; instead, please use $MODDIR/...
 # This will make your scripts compatible even if Magisk change its mount point in the future
 MODDIR=${0%/*}
